@@ -1,0 +1,32 @@
+.body{
+    background-image: url(https://previews.123rf.com/images/claudiodivizia/claudiodivizia1612/claudiodivizia161200727/69451734-texture-de-papier-bleu-clair-utile-comme-arri%C3%A8re-plan-vertical.jpg);
+    font-family: 'Roboto Slab', serif;
+}
+
+.dropdown:hover .dropdown-menu {
+    max-height: 280px;
+    overflow-y: auto;
+    display: block;
+}
+.card{
+    overflow: hidden;
+}
+
+.card:hover > img {
+    transform: scale(1.05);
+}
+
+.btn-flotante {
+	color: #ffffff;
+	border-radius: 20px;
+	background-color: #FF7495;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	transition: all 300ms ease 0ms;
+}
+.btn-flotante:hover {
+	background-color: #fa5d82; /* Color de fondo al pasar el cursor */
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+}
